@@ -1,0 +1,31 @@
+SubSet > SubSequence > SubString
+
+In SubSet :- order and position doesn't matter.
+In SubSequence :- order matters but position doesn't matter i.e we can pick the elements from the random places
+In SubString :- order and position both matters i.e we can not pick the elements from the random places
+
+For Example :-  "abc"
+
+SubSet :-
+- a, b, c, (ab/ba), (bc/cb), (abc/acb/bac/bca/cab/cba).
+SubSequence :-
+- ' ', a, b, c, ab, bc, ac, abc.
+SubString :-
+- a, b, c, ab, bc, abc.
+
+         SubSet / PowerSet
+|||||||||||||||||||||||||||||||||
+|          SubSequence          |
+|   |||||||||||||||||||||||||   |
+|   |       SubString       |   |
+|   |     ||||||||||||||    |   |
+|   |     |            |    |   |
+|   |     |            |    |   |
+|   |     |            |    |   |
+|   |     ||||||||||||||    |   |
+|   |                       |   |
+|   |||||||||||||||||||||||||   |
+|                               |
+|||||||||||||||||||||||||||||||||
+
+* SubSet is super set of SubSequence and SubSequence is super set of SubString.
